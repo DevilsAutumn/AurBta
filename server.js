@@ -3,7 +3,7 @@ const path = require('path');
 const http = require('http');
 const socket = require('socket.io');
 const formatMessage = require('./utils/messages');
-const { userJoin, getCurrentUser, userLeave, getRoomUers } = require('./users');
+const { userJoin, getCurrentUser, userLeave, getRoomUers } = require('./utils/users');
 
 
 const app = express();
